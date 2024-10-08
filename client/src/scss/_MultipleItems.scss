@@ -1,0 +1,18 @@
+.slider-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  .slider {
+    margin-top: 30px;
+    width: 98%;
+    height: 30vh;
+    background-color: $mainBlue;
+
+    .slider-box {
+      width: 20px;
+      height: 10vh;
+      background-color: green;
+      // gap: 30px;
+    }
+  }
+}

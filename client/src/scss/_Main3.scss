@@ -1,0 +1,49 @@
+.main3-wrap {
+  // background-color: rgb(17, 26, 41, 0.9);
+  // z-index: 10;
+  height: 100vh;
+  .main3-container-wrap {
+    // z-index: 7;
+    background-image: url(https://ex.kinkos.co.kr/images/Main-Home_WhatWeDoBG.jpeg);
+    background-size: 100%;
+    height: 100vh;
+    .main3-container {
+      width: 100%;
+      height: 50vh;
+      max-width: 70%;
+      padding-top: 5%;
+      margin-left: 15%;
+      display: flex;
+      gap: 25%;
+      .main3-contaier-left {
+        .title-explanation2 {
+          strong {
+            color: #fff;
+          }
+        }
+      }
+
+      .main3-container-right {
+        max-width: 25vw;
+        width: 100%;
+        height: 100vh;
+        font-size: 20px;
+        .main3-box {
+          margin-top: 10%;
+          cursor: pointer;
+          width: 600px;
+          height: 240px;
+          padding-left: 40px;
+          background-color: rgb(6, 12, 65, 0.8);
+          color: #f7f7f9;
+          border-radius: 20px;
+          border: 1px solid #3c465f;
+
+          h2 {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

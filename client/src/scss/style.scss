@@ -1,0 +1,115 @@
+$mainBlue: #2a37d7;
+$textBlue: #2638e0;
+$mainBlack: #111a29;
+$textgray: #546066;
+$dategray: #3a474e;
+
+@import "Home";
+@import "Navbar";
+@import "Footer";
+@import "DropdownMenu";
+@import "Main1";
+@import "Main2";
+@import "Main3";
+@import "Main4";
+@import "Main5";
+@import "Main6";
+@import "MultipleItems";
+
+.app {
+  display: flex;
+  justify-content: center;
+  font-family: Pretendard, sans-serif;
+
+  .container {
+    width: 100%;
+  }
+
+  // 전역적으로 사용할 link 스타일링
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  // 전역적으로 사용할 blue-btn 스타일링
+  .blue-btn {
+    background-color: $mainBlue;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    width: 160px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  // 전역적 sub-title
+  .sub-title {
+    color: $textBlue;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  // 전역적 main-title
+  .main-title {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+
+  // 전역적 title-explanation
+  .title-explanation {
+    font-size: 20px;
+    color: $textgray;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+
+  // 전역적 date
+  .date {
+    color: $dategray;
+    font-size: 19px;
+    margin: 15px 0;
+  }
+
+  // 전역적 img-explanation
+  .img-explanation {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  // 전역적 title 스타일링
+  .sub-title2 {
+    color: #b0ecfd;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .main-title2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .title-explanation2 {
+    color: #dee3ea;
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+
+  // 전역적 more-btn
+  .more-btn {
+    width: 150px;
+    height: 44px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #c1c3d2;
+    padding-right: 20px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+}

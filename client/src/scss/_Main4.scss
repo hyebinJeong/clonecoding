@@ -1,0 +1,34 @@
+.main4-wrap {
+  width: 100%;
+  height: 70vh;
+  background-color: #f2f9fe;
+  .main4-container-wrap {
+    width: 100%;
+    height: 50vh;
+    max-width: 70%;
+    padding-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    gap: 15%;
+    .main4-left {
+      height: 80vh;
+      width: 100%;
+      .title-explanation {
+        padding-top: 10%;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    .main4-right {
+      display: flex;
+      gap: 5%;
+      .main4-right-img1 {
+        height: 90%;
+      }
+      .main4-right-img2 {
+        height: 55%;
+        width: auto;
+      }
+    }
+  }
+}

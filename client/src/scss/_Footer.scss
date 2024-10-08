@@ -1,0 +1,62 @@
+footer {
+  background-color: $mainBlack;
+  color: #fff;
+  .footer-wrap {
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 70%;
+    margin-left: 14%;
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+
+      .footer-middle {
+        margin-top: 58px;
+      }
+
+      .ask-btn {
+        height: 40px;
+        width: 120px;
+        color: #fff;
+        border: 1px solid #fff;
+        background: none;
+        border-radius: 30px;
+      }
+
+      .footer-logo {
+        height: 24px;
+        width: 176px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .footer-hr {
+    background: #4e606c;
+    height: 1px;
+    border: none;
+    width: 72%;
+    size: 1px;
+  }
+
+  .footer-bottom {
+    color: #4e606c;
+    width: 70%;
+    padding: 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+
+    .personal-info {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

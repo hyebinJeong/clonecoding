@@ -1,0 +1,62 @@
+.navbar {
+  width: 100%;
+  max-width: 90%;
+  .container {
+    padding: 5px 60px;
+    display: flex;
+    align-items: center;
+    // logo, links 분리
+    justify-content: space-between;
+
+    .logo {
+      margin-top: 2px;
+      img {
+        width: 170px;
+        height: auto;
+      }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .link {
+        display: flex;
+      }
+
+      .program {
+        color: $textBlue;
+      }
+
+      .right-wrap {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .application-btn {
+          width: 90px;
+          height: 40px;
+          border-radius: 30px;
+          font-size: 15px;
+          font-weight: 600;
+          background-color: $mainBlue;
+          color: #ffff;
+          border: none;
+          margin-left: 10px;
+        }
+        .arrow-icon {
+          width: 14px;
+          height: 14px;
+          margin-top: 26px;
+          filter: invert(18%) sepia(92%) saturate(3211%) hue-rotate(233deg)
+            brightness(88%) contrast(100%);
+        }
+        .nav-icon {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
